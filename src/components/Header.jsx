@@ -2,13 +2,16 @@ import React from "react";
 
 import { AiFillHome } from "react-icons/ai";
 import Navbar from "./Navbar";
+import NavHead from "./NavHead";
 const Header = () => {
   return (
-    <div>
-      <div>
+    <div className="my-10 space-y-8">
+
      <Navbar />
-      </div>
+     <NavHead />
+     
     </div>
+   
   );
 };
 
